@@ -1,22 +1,16 @@
 ---
 pageLayout: home
-externalLinkIcon: false
+externalLinkIcon: true
 config:
   -
     type: hero
+    # background: tint-plate
+    background: /images/background-01.pnghttps://m.ccw.site/gandi_application/user_assets/112b0b7697f2e2387b0c78cad7727b90.png
     full: true
-    background: tint-plate
+    filter: 
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: KukeMC群组服
+      tagline: 
+      text: 
       actions:
-        -
-          theme: brand
-          text: 博客
-          link: /blog/
-        -
-          theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
 ---
