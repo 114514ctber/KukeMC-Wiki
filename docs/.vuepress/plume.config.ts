@@ -6,7 +6,7 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: 'https://m.ccw.site/gandi_application/user_assets/2a6bb37880317d2bb5525ab560618e04.png',
 
   appearance: true,  // 配置 深色模式
 
