@@ -51,6 +51,7 @@ export default defineThemeConfig({
   /**
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
+   */
 
     bulletin: {
       layout: 'top-right', // 公告板位置：顶部右侧
