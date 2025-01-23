@@ -31,7 +31,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: 'Copyright © 2023-2025 KukeMC Server丨版权所有',
-    copyright: '<a href="https://icp.gov.moe/?keyword=20241120" target="_blank">萌ICP备20241120号</a>',
+    copyright: '<a href="https://icp.gov.moe/?keyword=20241240" target="_blank">萌ICP备20241240号</a>',
  },
 
   /**
