@@ -14,6 +14,7 @@ config:
       text: 
       actions:
   -
+    type: full
     full: false
   -
 ---
