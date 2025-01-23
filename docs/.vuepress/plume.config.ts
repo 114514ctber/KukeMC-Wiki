@@ -51,7 +51,6 @@ export default defineThemeConfig({
   /**
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-   */
 
     bulletin: {
       layout: 'top-right', // 公告板位置：顶部右侧
@@ -62,6 +61,7 @@ export default defineThemeConfig({
       enablePage: (page) => {
         return page.path === '/'; // 仅在首页显示公告
       },
+    */
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   // transition: {
