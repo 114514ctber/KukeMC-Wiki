@@ -13,4 +13,7 @@ config:
       tagline: 
       text: 
       actions:
+  -
+    full: false
+  -
 ---
