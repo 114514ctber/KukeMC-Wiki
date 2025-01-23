@@ -52,13 +52,15 @@ export default defineThemeConfig({
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
 
-  bulletin: {
-  layout: 'top-right',
-  contentType: 'markdown',
-  enablePage?: boolean | ((page: true) => boolean)
-  title: '公告板标题',
-  content: '公告板内容',
-  },
+    bulletin: {
+      layout: 'top-right', // 公告板位置：顶部右侧
+      title: '公告板标题', // 公告标题
+      content: '公告板内容', // 公告内容
+      contentType: 'markdown', // 使用 Markdown 语法（可选）
+      lifetime: 'once', // 公告仅显示一次，关闭后不再显示
+      enablePage: (page) => {
+        return page.path === '/'; // 仅在首页显示公告
+      },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   // transition: {
