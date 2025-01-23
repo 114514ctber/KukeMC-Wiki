@@ -16,5 +16,6 @@ config:
   -
     type: full
     full: false
+
   -
 ---
