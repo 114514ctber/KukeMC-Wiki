@@ -30,8 +30,8 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: '',
+    message: 'Copyright © 2023-2025 KukeMC Server丨版权所有',
+    copyright: '<a href="https://icp.gov.moe/?keyword=20241120" target="_blank">萌ICP备20241120号</a>',
  },
 
   /**
