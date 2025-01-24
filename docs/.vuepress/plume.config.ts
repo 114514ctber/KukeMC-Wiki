@@ -59,7 +59,7 @@ export default defineThemeConfig({
     lifetime: 'always',
     // title: '🎉 公告 🎉',
     contentFile: path.join(__dirname, 'bulletin.md'),
-    enablePage: page => page.path === '/article/fkglqzwb',
+    enablePage: page => page.path === '/article/fkglqzwb/',
   },
 
 
