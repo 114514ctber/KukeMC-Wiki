@@ -5,7 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'KukeMC群组服Wiki',
+  title: 'KukeWiki',
   description: '',
 
   head: [
