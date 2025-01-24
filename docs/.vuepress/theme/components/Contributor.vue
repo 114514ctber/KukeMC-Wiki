@@ -38,12 +38,12 @@ const props = defineProps<PlumeHomeConfigBase & {
           <div style="display: flex; align-items: center; gap: 16px;">
             <img
               src="https://crafthead.net/avatar/kukemc"
-              alt="0ctber"
+              alt="kukemc"
               style="width: 80px; height: 80px; border-radius: 5%; align-self: flex-end;"
             />
             <div>
               <h2 style="font-size: 24px; font-weight: bold; margin: 0;">kukemc</h2>
-              <p style="font-size: 14px; color: #666; margin: 5px 0;">腐竹/吉祥物</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">腐竹/责任编辑</p>
             </div>
           </div>
         </template>
