@@ -146,9 +146,7 @@ export default defineUserConfig({
         categoryId: 'DIC_kwDONufNJM4CmS8Z',
      },
     },
-
-bottom
-    
+ 
     /**
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
