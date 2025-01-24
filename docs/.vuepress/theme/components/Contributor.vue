@@ -14,10 +14,29 @@ const props = defineProps<PlumeHomeConfigBase & {
     :background-attachment="backgroundAttachment"
     :full="false"
   >
-
-  <div><h1 style="text-align:center;font-size:28px;font-weight:bolder">文档贡献者名单</h1></div>
+    <div>
+      <h1 style="text-align:center;font-size:28px;font-weight:bolder">文档贡献者名单</h1>
+    </div>
     <CardGrid :cols="{ sm: 1, md: 3, lg: 3 }">
-        <Card title="0ctber" icon="https://crafthead.net/avatar/0ctber"></Card>
+      <Card
+        title="0ctber"
+        icon="https://crafthead.net/avatar/0ctber"
+        style="text-align: center;"
+      >
+        <template #icon>
+          <img
+            src="https://crafthead.net/avatar/0ctber"
+            alt="0ctber"
+            style="width: 100%; height: auto; border-radius: 50%;"
+          />
+        </template>
+        <template #title>
+          <h2 style="font-size: 20px; font-weight: bold;">0ctber</h2>
+        </template>
+        <template #default>
+          <p style="font-size: 14px; color: #666;">服务器管理员</p>
+        </template>
+      </Card>
     </CardGrid>
   </VPHomeBox>
 </template>
