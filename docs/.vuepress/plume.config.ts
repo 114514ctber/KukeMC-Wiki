@@ -46,9 +46,6 @@ export default defineThemeConfig({
     // organization: '',
   },
 
-  navbar,
-  notes,
-
   /**
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
