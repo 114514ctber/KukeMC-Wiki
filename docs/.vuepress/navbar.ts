@@ -1,7 +1,7 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
-  { text: '首页', link: '/' },
+  { text: '首页', icon: 'icon-park-outline:home' , link: '/'  },
   {
     text: '更多',
     icon: 'icon-park-outline:more-two',
