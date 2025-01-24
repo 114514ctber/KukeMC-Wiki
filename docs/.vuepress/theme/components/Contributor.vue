@@ -24,7 +24,7 @@ const props = defineProps<PlumeHomeConfigBase & {
             <img
               src="https://crafthead.net/avatar/0ctber"
               alt="0ctber"
-              style="width: 80px; height: 80px; border-radius: 90%; align-self: flex-end;"
+              style="width: 80px; height: 80px; border-radius: 5%; align-self: flex-end;"
             />
             <div>
               <h2 style="font-size: 20px; font-weight: bold; margin: 0;">0ctber</h2>
