@@ -56,11 +56,11 @@ export default defineThemeConfig({
    */
 
   bulletin: {
-    layout: 'top-right',
+    layout: 'center',
     lifetime: 'always',
     // title: '🎉 公告 🎉',
     contentFile: path.join(__dirname, 'bulletin.md'),
-    enablePage: page => page.path === '/article/fkglqzwb/',
+    enablePage: page => page.path === '/',
   },
 
 
