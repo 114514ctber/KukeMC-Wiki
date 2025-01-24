@@ -31,7 +31,7 @@ export default defineUserConfig({
     // contributors: true,
     // changelog: false,
 
-    blog: true, // 禁用博客
+    blog: false, // 禁用博客
 
     /**
      * 编译缓存，加快编译速度
