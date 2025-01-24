@@ -17,7 +17,7 @@ const props = defineProps<PlumeHomeConfigBase & {
     <div>
       <h1 style="text-align:center;font-size:28px;font-weight:bolder">文档贡献者名单</h1>
     </div>
-    <CardGrid :cols="{ sm: 1, md: 3, lg: 3 }">
+    <CardGrid :cols="{ sm: 1, md: 2, lg: 2 }"> <!-- 修改列数配置 -->
       <Card>
         <template #default>
           <div style="display: flex; align-items: center; gap: 16px;">
@@ -33,12 +33,12 @@ const props = defineProps<PlumeHomeConfigBase & {
           </div>
         </template>
       </Card>
-            <Card>
+      <Card>
         <template #default>
           <div style="display: flex; align-items: center; gap: 16px;">
             <img
               src="https://crafthead.net/avatar/kukemc"
-              alt="0ctber"
+              alt="kukemc"
               style="width: 80px; height: 80px; border-radius: 5%; align-self: flex-end;"
             />
             <div>
@@ -48,5 +48,6 @@ const props = defineProps<PlumeHomeConfigBase & {
           </div>
         </template>
       </Card>
+    </CardGrid>
   </VPHomeBox>
 </template>
