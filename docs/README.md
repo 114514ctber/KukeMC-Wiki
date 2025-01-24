@@ -13,15 +13,4 @@ config:
       tagline: 
       text: 
       actions:
-        -
-          theme: brand
-          text: 加入我们 →
-          link: /docs/get-start/
-        -
-          theme: alt
-          text: 官网
-          link: https://kuke.ink
-
-  -
-
 ---
