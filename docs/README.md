@@ -1,4 +1,4 @@
----
+·---
 pageLayout: home
 externalLinkIcon: true
 config:
@@ -13,9 +13,5 @@ config:
       tagline: 
       text: 
       actions:
-  -
-    type: full
-    full: false
-
   -
 ---
