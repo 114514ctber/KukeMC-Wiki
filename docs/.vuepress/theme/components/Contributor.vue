@@ -33,9 +33,7 @@ const props = defineProps<PlumeHomeConfigBase & {
           </div>
         </template>
       </Card>
-    </CardGrid>
-        <CardGrid :cols="{ sm: 1, md: 3, lg: 3 }">
-      <Card>
+            <Card>
         <template #default>
           <div style="display: flex; align-items: center; gap: 16px;">
             <img
@@ -50,6 +48,5 @@ const props = defineProps<PlumeHomeConfigBase & {
           </div>
         </template>
       </Card>
-    </CardGrid>
   </VPHomeBox>
 </template>
