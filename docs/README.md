@@ -8,8 +8,8 @@ config:
     full: true
     filter: 
     hero:
-      name: KukeMC群组服
-      tagline: 
+      name: KukeWiki
+      tagline: ——解答你的所有疑问——
       text: 
       actions:
 ---
