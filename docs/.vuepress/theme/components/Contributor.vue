@@ -21,14 +21,12 @@ const props = defineProps<PlumeHomeConfigBase & {
       <Card>
         <template #default>
           <div style="display: flex; align-items: center; gap: 16px;">
-            <!-- 图片放大并靠右对齐 -->
             <img
               src="https://crafthead.net/avatar/0ctber"
               alt="0ctber"
-              style="width: 80px; height: 80px; border-radius: 50%; align-self: flex-end;"
+              style="width: 80px; height: 80px; border-radius: 90%; align-self: flex-end;"
             />
             <div>
-              <!-- 标题和副标题 -->
               <h2 style="font-size: 20px; font-weight: bold; margin: 0;">0ctber</h2>
               <p style="font-size: 14px; color: #666; margin: 5px 0;">服务器管理员</p>
             </div>
