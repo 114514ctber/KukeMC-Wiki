@@ -148,6 +148,7 @@ export default defineUserConfig({
         repoId: 'R_kgDONufNJA',
         category: '评论空间~',
         categoryId: 'DIC_kwDONufNJM4CmS8Z',
+        theme: "https://cdn.jsdelivr.net/gh/L33Z22L11/giscus-theme/modern.css"
      },
     },
 
