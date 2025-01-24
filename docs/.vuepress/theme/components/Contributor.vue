@@ -28,7 +28,8 @@ const props = defineProps<PlumeHomeConfigBase & {
             />
             <div>
               <h2 style="font-size: 24px; font-weight: bold; margin: 0;">0ctber</h2>
-              <p style="font-size: 14px; color: #666; margin: 5px 0;">管理员/责任编辑</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">服务器管理员/责任编辑</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">文档站、监控站、官网运维，一个普通的志愿者</p>
             </div>
           </div>
         </template>
@@ -43,7 +44,8 @@ const props = defineProps<PlumeHomeConfigBase & {
             />
             <div>
               <h2 style="font-size: 24px; font-weight: bold; margin: 0;">kukemc</h2>
-              <p style="font-size: 14px; color: #666; margin: 5px 0;">腐竹/责任编辑</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">服主/吉祥物</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">古希腊掌管最高神犬的生物</p>
             </div>
           </div>
         </template>
