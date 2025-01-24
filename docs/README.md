@@ -9,7 +9,7 @@ config:
     filter: 
     hero:
       name: KukeWiki
-      tagline: ——解答你的所有疑问——
-      text: 
+      tagline:
+      text: ——解答你的所有疑问——
       actions:
 ---
