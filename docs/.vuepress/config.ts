@@ -137,6 +137,7 @@ export default defineUserConfig({
        */
       // watermark: true,
 
+          /**
      comment: {
         provider: 'Giscus',
         comment: true,
@@ -145,7 +146,7 @@ export default defineUserConfig({
         category: '评论空间~',
         categoryId: 'DIC_kwDONufNJM4CmS8Z',
      },
-    },
+    },*/
  
     /**
      * 加密功能
