@@ -137,23 +137,21 @@ export default defineUserConfig({
        */
       // watermark: true,
 
-      /**
-       * 评论 comments
-       * @see https://theme-plume.vuejs.press/guide/features/comments/
-       */
-      // comment: {
-      //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      //   comment: true,
-      //   repo: '',
-      //   repoId: '',
-      //   category: '',
-      //   categoryId: '',
-      //   mapping: 'pathname',
-      //   reactionsEnabled: true,
-      //   inputPosition: 'top',
-      // },
+     comment: {
+        provider: 'Giscus',
+        comment: true,
+        repo: '114514ctber/KukeMC-Wiki',
+        repoId: 'R_kgDONufNJA',
+        category: '评论空间~',
+        categoryId: 'DIC_kwDONufNJM4CmS8Z',
+        mapping: 'pathname',
+        reactionsEnabled: true,
+       inputPosition: 'bottom',
+     },
     },
 
+bottom
+    
     /**
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
