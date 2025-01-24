@@ -1,4 +1,4 @@
-·---
+---
 pageLayout: home
 externalLinkIcon: true
 config:
