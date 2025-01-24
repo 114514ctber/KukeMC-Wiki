@@ -12,4 +12,7 @@ config:
       tagline:
       text: ——解答你的所有疑问——
       actions:
+  -
+    type: Contributor
+    full: false
 ---
