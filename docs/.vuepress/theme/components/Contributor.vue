@@ -19,18 +19,20 @@ const props = defineProps<PlumeHomeConfigBase & {
     </div>
     <CardGrid :cols="{ sm: 1, md: 3, lg: 3 }">
       <Card>
-        <template #icon>
-          <img
-            src="https://crafthead.net/avatar/0ctber"
-            alt="0ctber"
-            style="width: 100%; height: auto; border-radius: 50%;"
-          />
-        </template>
-        <template #title>
-          <h2 style="font-size: 20px; font-weight: bold; margin: 10px 0;">0ctber</h2>
-        </template>
         <template #default>
-          <p style="font-size: 14px; color: #666; margin: 5px 0;">服务器管理员</p>
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <!-- 图片放大并靠右对齐 -->
+            <img
+              src="https://crafthead.net/avatar/0ctber"
+              alt="0ctber"
+              style="width: 80px; height: 80px; border-radius: 50%; align-self: flex-end;"
+            />
+            <div>
+              <!-- 标题和副标题 -->
+              <h2 style="font-size: 20px; font-weight: bold; margin: 0;">0ctber</h2>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">服务器管理员</p>
+            </div>
+          </div>
         </template>
       </Card>
     </CardGrid>
