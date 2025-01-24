@@ -27,8 +27,25 @@ const props = defineProps<PlumeHomeConfigBase & {
               style="width: 80px; height: 80px; border-radius: 5%; align-self: flex-end;"
             />
             <div>
-              <h2 style="font-size: 20px; font-weight: bold; margin: 0;">0ctber</h2>
-              <p style="font-size: 14px; color: #666; margin: 5px 0;">服务器管理员</p>
+              <h2 style="font-size: 24px; font-weight: bold; margin: 0;">0ctber</h2>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">管理员/责任编辑</p>
+            </div>
+          </div>
+        </template>
+      </Card>
+    </CardGrid>
+        <CardGrid :cols="{ sm: 1, md: 3, lg: 3 }">
+      <Card>
+        <template #default>
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <img
+              src="https://crafthead.net/avatar/kukemc"
+              alt="0ctber"
+              style="width: 80px; height: 80px; border-radius: 5%; align-self: flex-end;"
+            />
+            <div>
+              <h2 style="font-size: 24px; font-weight: bold; margin: 0;">kukemc</h2>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">腐竹</p>
             </div>
           </div>
         </template>
