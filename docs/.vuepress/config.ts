@@ -10,7 +10,9 @@ export default defineUserConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://m.ccw.site/gandi_application/user_assets/2a6bb37880317d2bb5525ab560618e04.png' }],
-    ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }]
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }],
+    ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: '//sdk.51.la/js-sdk-pro.min.js' }],
+    ['script', {}, 'LA.init({id:"3JuSda8vFbPyJ1m5",ck:"3JuSda8vFbPyJ1m5"})']
   ],
 
   bundler: viteBundler(),
