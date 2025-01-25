@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { La51Plugin } from 'vitepress-plugin-51la'
 
 export default defineUserConfig({
   base: '/',
