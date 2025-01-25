@@ -1,4 +1,4 @@
-import { viteBundler } from '@vuepress/bundler-vite'
+  import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { La51Plugin } from 'vitepress-plugin-51la'
@@ -54,7 +54,7 @@ export default defineUserConfig({
       La51Plugin({
         id: '3JuSda8vFbPyJ1m5',
         ck: '3JuSda8vFbPyJ1m5',
-      })
+      }),
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
