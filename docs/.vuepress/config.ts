@@ -50,11 +50,10 @@ export default defineUserConfig({
     // },
 
     plugins: {
-       La51Plugin({
+      La51Plugin({
         id: '3JuSda8vFbPyJ1m5',
         ck: '3JuSda8vFbPyJ1m5'
-      },
-      
+      })
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
