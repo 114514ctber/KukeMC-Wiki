@@ -1,7 +1,6 @@
   import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-import { La51Plugin } from 'vitepress-plugin-51la'
 
 export default defineUserConfig({
   base: '/',
@@ -12,6 +11,8 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://m.ccw.site/gandi_application/user_assets/2a6bb37880317d2bb5525ab560618e04.png' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }],
+    ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: 'https://sdk.51.la/js-sdk-pro.min.js' }],
+    ['script', {}, `LA.init({id:"3JuSda8vFbPyJ1m5",ck:"3JuSda8vFbPyJ1m5",autoTrack:true,hashMode:true})`],
   ],
 
   bundler: viteBundler(),
@@ -51,10 +52,6 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      La51Plugin({
-        id: '3JuSda8vFbPyJ1m5',
-        ck: '3JuSda8vFbPyJ1m5',
-      }),
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
