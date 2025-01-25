@@ -9,9 +9,10 @@ export default defineUserConfig({
   description: '',
 
   head: [
-    // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: 'https://m.ccw.site/gandi_application/user_assets/2a6bb37880317d2bb5525ab560618e04.png' }],
-  ],
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }]
+  ]
+});
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
