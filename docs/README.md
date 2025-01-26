@@ -12,7 +12,7 @@ config:
     hero:
       name: KukeWiki
       tagline:
-      text: <p style="color: white;">——解答你的所有疑问——</p>
+      text: ——解答你的所有疑问——
       actions:
   -
     type: Contributor
