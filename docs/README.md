@@ -1,9 +1,3 @@
-<style>
-  .white-text {
-    color: white;
-  }
-</style>
-<div class="white-text">
 ---
 pageLayout: home
 externalLinkIcon: true
@@ -18,7 +12,7 @@ config:
     hero:
       name: KukeWiki
       tagline:
-      text: ——解答你的所有疑问——
+      text: <p style="color: white;">——解答你的所有疑问——</p>
       actions:
   -
     type: Contributor
