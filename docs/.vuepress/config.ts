@@ -54,7 +54,7 @@ export default defineUserConfig({
 
     plugins: {
        MeiliSearchPlugin({
-        host: 'https://search.0ctber.cn',
+        host: '154.37.214.183:7730',
         apiKey: 'K3mP7F8aQ1xR5bZ9',
         indexUid: 'KukeWiki',
        })
