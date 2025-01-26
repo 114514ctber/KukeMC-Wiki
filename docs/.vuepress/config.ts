@@ -13,15 +13,6 @@ export default defineUserConfig({
     ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }],
     ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: 'https://sdk.51.la/js-sdk-pro.min.js' }],
     ['script', {}, `LA.init({id:"3JuSda8vFbPyJ1m5",ck:"3JuSda8vFbPyJ1m5",autoTrack:true,hashMode:true})`],
-    ['link', { rel: 'stylesheet', href: 'https://doc.0ctber.cn/style/Minecraft_Next_Font_12px2.0.ttf' }],
-    ['style', {}, `
-      @font-face {
-        font-family: 'Minecraft_Next_Font_12px2.0';
-        src: url('https://doc.0ctber.cn/style/Minecraft_Next_Font_12px2.0.ttf');
-        font-weight: normal;
-        font-style: normal;
-      }
-    `]
   ],
 
   bundler: viteBundler(),
