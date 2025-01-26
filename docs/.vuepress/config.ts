@@ -1,7 +1,7 @@
   import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-import { MeiliSearchPlugin } from 'vuepress-plugin-meilisearch2'
+import { MeiliSearchPlugin } from 'vuepress-plugin-meilisearch'
 
 export default defineUserConfig({
   base: '/',
@@ -54,7 +54,7 @@ export default defineUserConfig({
 
     plugins: {
        MeiliSearchPlugin({
-        host: 'https://search.0ctber.cn/',
+        hostUrl: 'https://search.0ctber.cn/',
         apiKey: 'K3mP7F8aQ1xR5bZ9',
         indexUid: 'KukeWiki',
        })
