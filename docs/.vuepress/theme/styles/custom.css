@@ -1,4 +1,6 @@
 :root {
+  --vp-c-home-hero-text: #ffffff;
+  
   /** 主题颜色 */
 
   /*
@@ -28,6 +30,8 @@
 
 /** 深色模式 */
 [data-theme="dark"] {
+  --vp-c-home-hero-text: #ffffff;
+  
   /*
   --vp-c-brand-1: #8cccd5;
   --vp-c-brand-2: #6aa1b7;
