@@ -28,7 +28,7 @@ const props = defineProps<PlumeHomeConfigBase & {
             />
             <div>
               <h2 style="font-size: 24px; font-weight: bold; margin: 0;">0ctber</h2>
-              <p style="font-size: 14px; color: #666; margin: 5px 0;">服务器管理员/责任编辑</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">站点开发/责任编辑</p>
               <p style="font-size: 14px; color: #666; margin: 5px 0;">一个普通的志愿者</p>
             </div>
           </div>
@@ -60,7 +60,7 @@ const props = defineProps<PlumeHomeConfigBase & {
             />
             <div>
               <h2 style="font-size: 24px; font-weight: bold; margin: 0;">zurnm</h2>
-              <p style="font-size: 14px; color: #666; margin: 5px 0;">编辑助理</p>
+              <p style="font-size: 14px; color: #666; margin: 5px 0;">站点维护/编辑助理</p>
               <p style="font-size: 14px; color: #666; margin: 5px 0;">负责站点日常维护</p>
             </div>
           </div>
