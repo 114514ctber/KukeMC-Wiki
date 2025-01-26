@@ -160,4 +160,9 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
+  styles: {
+    css: [
+      'styles/custom.css' // 确保路径正确，相对于 .vuepress 目录
+    ]
+  }
 })
