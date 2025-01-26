@@ -53,11 +53,12 @@ export default defineUserConfig({
     // },
 
     plugins: {
-     MeiliSearchPlugin({
-      host: 'https://search.0ctber.cn',
-      apiKey: 'K3mP7F8aQ1xR5bZ9',
-      indexUid: 'KukeWiki',
-    })
+    MeiliSearchPlugin({
+      host: "https://search.jinqiu.wang",
+      apiKey:
+        "45a491ecc58df092acf6ec7e8321e40cae427a74aabf9cc831da7af275ae9b09",
+      indexUid: "vuepress",
+    }),
       
       /**
        * Shiki 代码高亮
