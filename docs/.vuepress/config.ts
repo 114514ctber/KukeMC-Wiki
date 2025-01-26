@@ -11,10 +11,17 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://m.ccw.site/gandi_application/user_assets/2a6bb37880317d2bb5525ab560618e04.png' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }],
-    ['meta', { 'http-equiv': 'Content-Type', content: 'text/html;charset=gb2312' }],
-    ['meta', { name: 'sogou_site_verification', content: 'PeFGpjMxyS' }],
     ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: 'https://sdk.51.la/js-sdk-pro.min.js' }],
     ['script', {}, `LA.init({id:"3JuSda8vFbPyJ1m5",ck:"3JuSda8vFbPyJ1m5",autoTrack:true,hashMode:true})`],
+    ['link', { rel: 'stylesheet', href: 'https://doc.0ctber.cn/style/Minecraft_Next_Font_12px2.0.ttf' }],
+    ['style', {}, `
+      @font-face {
+        font-family: 'Minecraft_Next_Font_12px2.0';
+        src: url('https://doc.0ctber.cn/style/Minecraft_Next_Font_12px2.0.ttf');
+        font-weight: normal;
+        font-style: normal;
+      }
+    `]
   ],
 
   bundler: viteBundler(),
