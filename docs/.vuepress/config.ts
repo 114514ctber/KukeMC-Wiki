@@ -12,6 +12,7 @@ export default defineUserConfig({
     ['link', { rel: 'icon', type: 'image/png', href: 'https://m.ccw.site/gandi_application/user_assets/2a6bb37880317d2bb5525ab560618e04.png' }],
     ['meta', { name: 'baidu-site-verification', content: 'codeva-jnBk62Ksvw' }],
     ['meta', { name: 'sogou_site_verification', content: 'PeFGpjMxyS' }],
+    ['meta', { http-equiv: 'Content-Type', content: 'text/html;charset=gb2312' }],
     ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: 'https://sdk.51.la/js-sdk-pro.min.js' }],
     ['script', {}, `LA.init({id:"3JuSda8vFbPyJ1m5",ck:"3JuSda8vFbPyJ1m5",autoTrack:true,hashMode:true})`],
   ],
